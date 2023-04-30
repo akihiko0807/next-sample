@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['1.bp.blogspot.com']
+  },
+  compiler: {
+    styledComponents: true,
   }
 }
 
